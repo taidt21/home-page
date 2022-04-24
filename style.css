@@ -320,8 +320,11 @@ section.staff{
 
   
 .instagram{
-    background-image: -ms-linear-gradient( 0deg, rgb(220,238,245) 0%, rgb(248,221,227) 100%);
-    background-image: linear-gradient(0deg,  rgb(220,238,245) 0%, rgb(248,221,227) 100%);
+        background-image: -moz-linear-gradient( 0deg, rgb(220,238,245) 0%, rgb(248,221,227) 100%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(220,238,245) 0%, rgb(248,221,227) 100%);
+        background-image: -ms-linear-gradient( 0deg, rgb(220,238,245) 0%, rgb(248,221,227) 100%);
+        
+      
 }
 .instagram-logo{
     padding-top: 105px;
