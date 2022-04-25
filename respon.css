@@ -11,3 +11,37 @@
     
 }
 
+@media(max-width:992px){
+    .basic-collection{
+        background-image: none!important;
+    }
+    .sample{
+        margin-top: 30%;
+    }
+    .sample img{
+        max-width: 100%;
+    }
+    .cart-reponsive{
+        width: 30px!important;
+        height: 30px!important;
+    }
+    .basic-collection{
+        margin-top:0px!important;
+    }
+    .main-header{
+        background-color: #f8f7f3;
+    }
+    .banner-2{
+        margin-top:0;
+    }
+    .banner-2 h3{
+        text-align: center!important;
+        margin-top:70px;
+    }
+    .border-10{
+        margin:0 auto;
+    }
+    .banner-6+h4{
+        text-align: center!important;
+    }
+}

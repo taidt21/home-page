@@ -12,7 +12,7 @@
         breakpoint: 1500,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           infinite: true,
           
         }
@@ -52,20 +52,30 @@
     dots:true,
     responsive: [
       {
-        breakpoint: 1400,
+        breakpoint: 1500,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 2,
           infinite: true,
-          
+          dots:false,
         }
       },
       {
-        breakpoint: 1300,
+        breakpoint:1300,
+        settings:{
+          slidesToShow:2,
+          slidesToScroll:1,
+          infinite:true,
+          dots:false,
+        }
+      },
+      {
+        breakpoint: 992,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite:true
+          slidesToScroll: 1,
+          infinite:true,
+          dots:false,
         }
       },
      {
@@ -73,7 +83,8 @@
        settings:{
          slidesToShow:1,
          slidesToScroll:1,
-         infinite:true
+         infinite:true,
+         dots:false,
        }
      }
     ]

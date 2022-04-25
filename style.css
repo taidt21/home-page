@@ -62,8 +62,13 @@ a{
 }
 /*SECTION BASIC-COLLECTION*/
 section.basic-collection{
-
-    background-color: f6f7f2;
+    background-image: url(img/Rectangle-4-copy-3.jpg);
+    background-size:auto;
+    background-position: top;
+    background-color: #f6f7f2;
+    background-repeat: no-repeat;
+    min-height: 871px;
+    margin-top: -73px;
 }
 .text-grey{
     color: #878787;
@@ -105,18 +110,10 @@ section.basic-collection{
     margin-right: 26px;
 }
 /*FEATURES*/
-.features{
-    height: 752px;
-}
 .banner-2{
     margin-top: -150px;
 }
-.sneaker-img{
-    padding:43.01px 47.50px;
-    background-color: #f1f1f1;
-    height: 387px;   
-    width: 320px!important;
-}
+
 .work-it-out{
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
@@ -151,7 +148,7 @@ section.basic-collection{
     border: 1px solid #000;
     border-radius: 50%;
     font-size: 25px;
-    left:-3%;
+    
     background-color: #fff;
 }
 
@@ -170,6 +167,12 @@ section.basic-collection{
     border-radius: 50%;
     font-size: 25px;
     background-color: #fff;
+}
+.sneaker img{
+    width: 320px!important;
+    max-height: 387px!important;
+    
+    
 }
 /*SECTION HINTER*/
 .intro{
@@ -263,16 +266,10 @@ section.staff{
 .shop-2 .slick-dots{
     display: none!important;
 }
-.sneaker-img{
-    padding: 47.50px;
-    background-color: #f1f1f1;
-    width: 320px;
-    
-}
-.hat-red{
-    padding:43.01px 47.50px;
-    background-color: #f1f1f1;
-    width: 320px;
+
+.hat img{
+    width:320px;
+    height:387px;
 }
 .mt-27{
     margin-top: 27px;
@@ -347,8 +344,8 @@ section.staff{
 }
 /*FOOTER*/
 footer{
-    background-color: #161616; 
-    padding-bottom: 80px;
+    background-color: #161616;
+    
 }
 footer h3{
     margin-top:70px;
@@ -371,9 +368,6 @@ footer .col hr{
      height: 45px;
  }
  
-
-
-
 footer .col-md-4 hr{
     background-color: #48c8fd;
     height: 2px;
@@ -384,8 +378,4 @@ footer >hr{
 }
 footer .container:last-child{
     height:76px;
-}
-footer .container:last-child .row{
-    line-height: 76px;
-}
-  
+}  
