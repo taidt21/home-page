@@ -280,12 +280,19 @@ section.staff{
 .mt-15{
     margin-top: 15px;
 }
+.z-index-3{
+    z-index: 3;
+}
 /*SECTION WORKs*/
 .sneaker-red{
     margin-top: -40%;
 }
 .banner-6{
     margin-left: -50%;
+}
+.eduardo{
+    height: 100%;
+    width: 100%;
 }
 .border-10{
     border:10px solid rgb(34, 34, 34);
@@ -309,6 +316,12 @@ section.staff{
 .box{
     margin-right:20%;
     
+}
+.mt_-20{
+    margin-top: -20%;
+}
+.mb-93{
+    margin-bottom: 93px;
 }
 .layer-5{
     top: 35%;
