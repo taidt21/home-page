@@ -334,7 +334,8 @@ section.staff{
 }
 /*FOOTER*/
 footer{
-    background-color: #161616;
+    background-color: #161616; 
+    padding-bottom: 80px;
 }
 footer h3{
     margin-top:70px;
