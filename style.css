@@ -63,8 +63,8 @@ a{
 /*SECTION BASIC-COLLECTION*/
 section.basic-collection{
     background-image: url(img/Rectangle-4-copy-3.jpg);
-    background-size:auto;
-    background-position: top;
+    background-size:cover;
+    background-position: top right;
     background-color: #f6f7f2;
     background-repeat: no-repeat;
     min-height: 871px;

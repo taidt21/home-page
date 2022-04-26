@@ -12,9 +12,6 @@
 }
 
 @media(max-width:992px){
-    .basic-collection{
-        background-image: none!important;
-    }
     .sample{
         margin-top: 30%;
     }
