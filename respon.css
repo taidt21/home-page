@@ -22,8 +22,11 @@
         width: 30px!important;
         height: 30px!important;
     }
+    
     .basic-collection{
         margin-top:0px!important;
+        max-height: 450px;
+        background-position: top right;
     }
     .main-header{
         background-color: #f8f7f3;
@@ -40,5 +43,20 @@
     }
     .banner-6+h4{
         text-align: center!important;
+    }
+}
+@media(max-width:768px){
+    .basic-collection{
+        max-height:370px!important;
+        background-position: top right;
+    }
+    .basic-collection h2{
+        font-size: 30px!important;
+    }
+    .basic-collection .fs-40{
+        font-size: 15px;
+    }
+    .basic-collection .text-grey{
+        font-size: 10px;
     }
 }

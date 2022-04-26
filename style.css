@@ -67,8 +67,11 @@ section.basic-collection{
     background-position: top right;
     background-color: #f6f7f2;
     background-repeat: no-repeat;
-    min-height: 871px;
+    height: 871px;
     margin-top: -73px;
+}
+.basic-collection .col-12{
+    margin-bottom: 40%;
 }
 .text-grey{
     color: #878787;
