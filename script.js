@@ -1,6 +1,6 @@
 
 
-
+//SLIDER
   $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 3,
@@ -29,13 +29,7 @@
     ]
   });
           
-  
-  
-  
-  
-  
-  
-  
+ 
   
   
   
@@ -89,3 +83,19 @@
      }
     ]
   });
+  
+
+  
+  // OFF CANVAS
+  const canvas = document.querySelector('.off-canvas')
+const button = document.querySelector('.close')
+
+
+button.addEventListener("click", _ => {
+ // var canvasWidth = canvas.clientWidth;
+canvas.classList.toggle('open')
+
+})
+  
+  
+ 
