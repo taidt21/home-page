@@ -13,7 +13,6 @@ html{
 a{
     text-decoration: none;
 }
-
 /*TOP BAR*/
 .top-bar{
     background-color: #1e1e1e;
@@ -82,7 +81,6 @@ a{
     font-size: 10px;
     line-height: 36px;
 }
-
 /*SECTION BASIC-COLLECTION*/
 section.basic-collection{
     background-image: url(img/Rectangle-4-copy-3.jpg);
@@ -101,7 +99,6 @@ section.basic-collection{
 }
 .sample{
     margin-top:-15%;
-    
 }
 .fw-500{
     font-weight: 500;
@@ -116,7 +113,6 @@ section.basic-collection{
 .fs-40{
     font-size: 40px;
 }
-
 .btn-bright-red{
     background-color: #ff4949;
     width: 174px;
@@ -194,12 +190,7 @@ section.basic-collection{
     font-size: 25px;
     background-color: #fff;
 }
-.sneaker img{
-    width: 320px!important;
-    max-height: 387px!important;
-    
-    
-}
+
 /*SECTION HINTER*/
 .hinter{
     background-image: url(img/edura.jpg);
@@ -211,7 +202,7 @@ section.basic-collection{
 .intro{
     height:195px;
     width: 560px;
-    margin-top: 347px;
+    margin-left: 7%;
 }
 .line-2{
     width: 53px;
@@ -270,7 +261,6 @@ section.staff{
 .staff .slick-dots li:nth-child(2){
     margin: 0 16px;
 }
-
 .staff .slick-dots button{
     font-size:0;
     height: 12px;
@@ -292,18 +282,12 @@ section.staff{
 .staff-pick{
     height: 108px;
     padding-top: 70px;
-    
 }
 .shop-2{
     margin-top: 99px;
 }
 .shop-2 .slick-dots{
     display: none!important;
-}
-
-.hat img{
-    width:320px;
-    height:387px;
 }
 .mt-27{
     margin-top: 27px;
@@ -315,12 +299,9 @@ section.staff{
     z-index: 3;
 }
 .slick-slide{
-    margin-right: 40px;
-    width: 320px !important;
+    margin-right: 40px!important;
+    
 }
-/* .slick-slide div{
-    width: 320px!important;
-} */
 /*SECTION WORKs*/
 .sneaker-red{
     margin-top: -40%;
@@ -382,6 +363,9 @@ section.staff{
 }
 .eveland{
     padding-bottom: 77px;
+}
+.dooley{
+    height: 100%;
 }
 /*FOOTER*/
 footer{
