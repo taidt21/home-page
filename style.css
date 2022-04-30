@@ -88,8 +88,8 @@ section.basic-collection{
     background-position: top right;
     background-color: #f6f7f2;
     background-repeat: no-repeat;
-    height: 871px;
-    margin-top: -95px;
+    height: 950px;
+    margin-top: -83px;
 }
 .basic-collection .col-12{
     margin-bottom: 40%;
@@ -182,7 +182,7 @@ section.basic-collection{
             transform: translateY(-50%);
     color:#000;
     z-index: 1;
-    right: 0;
+    right: 40px;
     height: 59px;
     width: 59px;
     border: 1px solid #000;
