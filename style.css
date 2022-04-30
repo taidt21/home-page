@@ -358,8 +358,8 @@ section.staff{
         background-image:linear-gradient( 0deg, rgb(220,238,245) 0%, rgb(248,221,227) 100%);
       
 }
-.instagram-logo{
-    padding-top: 105px;
+.instagram  img{
+    width: 100%;
 }
 .eveland{
     padding-bottom: 77px;
