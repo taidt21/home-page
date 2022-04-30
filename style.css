@@ -197,7 +197,7 @@ section.basic-collection{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 1022px;
+    height: 100vh;
 }
 .intro{
     height:195px;
