@@ -26,14 +26,14 @@
         background-image: none!important;
         max-height: 1100px;
     }
-    /* .basic-collection{
+    .basic-collection{
         margin-top:0px!important;
         max-height: 450px;
         background-position: top right;
-    } */
-    /* .main-header{
+    }
+    .main-header{
         background-color: #f8f7f3;
-    } */
+    }
     .banner-2{
         margin-top:0;
     }
@@ -58,10 +58,10 @@
     }
 }
 @media(max-width:768px){
-    /* .basic-collection{
+    .basic-collection{
         max-height:370px!important;
-        background-position: top right;
-    } */
+        background-position: center right;
+    }
     .basic-collection h2{
         font-size: 30px!important;
     }
