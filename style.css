@@ -81,6 +81,7 @@ a{
     font-size: 10px;
     line-height: 36px;
 }
+
 /*SECTION BASIC-COLLECTION*/
 section.basic-collection{
     background-image: url(img/Rectangle-4-copy-3.jpg);
@@ -156,6 +157,7 @@ section.basic-collection{
 .mt-7{
     margin-top: 6%;
 }
+
 .features .slick-prev{
     position: absolute;
     top: 50%;
@@ -174,6 +176,7 @@ section.basic-collection{
 }
 .slick-list{
     max-height: 387px!important;
+    
 }
 .features .slick-next{
     position: absolute;
@@ -183,7 +186,7 @@ section.basic-collection{
             transform: translateY(-50%);
     color:#000;
     z-index: 1;
-    right: 40px;
+    right: 0;
     height: 59px;
     width: 59px;
     border: 1px solid #000;
@@ -230,7 +233,7 @@ section.basic-collection{
     border-left:10px solid black;
 }
 /*SECTION.STAFF */
-section.staff{
+section.staff .title{
     background-color: #f6f6f6;
     
 }
@@ -300,7 +303,7 @@ section.staff{
     z-index: 3;
 }
 .slick-slide{
-    margin-right: 40px!important;
+    margin:0 20px!important;
     
 }
 /*SECTION WORKs*/
@@ -393,7 +396,10 @@ footer .col hr{
      width: 46px;
      height: 45px;
  }
- 
+.social-icon:hover{
+    background: #fff;
+    color: #000!important;
+}
 footer .col-md-4 hr{
     background-color: #48c8fd;
     height: 2px;
