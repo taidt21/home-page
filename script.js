@@ -87,16 +87,10 @@
   
 
   
-  // OFF CANVAS
-  const canvas = document.querySelector('.off-canvas')
-const button = document.querySelector('.close')
 
-
-button.addEventListener("click", _ => {
- // var canvasWidth = canvas.clientWidth;
-canvas.classList.toggle('open')
-
-})
-  
-  
+  $(document).ready(function(){
+    $(".close").click(function(){
+      $(".top-bar").hide(1200);
+    });
+  });
  
