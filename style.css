@@ -21,6 +21,7 @@ a{
 .top-bar p{
     font-size: 10px;
     line-height: 59px;
+    letter-spacing: 2px;
 }
 .top-bar .close{
     top:21px;
@@ -74,6 +75,9 @@ a{
 }
 .btn-english{
     width:87.99px;
+}
+.btn-usd::after, .btn-english::after{
+    content: none!important;
 }
 .btn-usd, .btn-english{
     height: 36px;
@@ -130,11 +134,23 @@ section.basic-collection{
     background:#1e1e1e;
     margin-right: 26px;
 }
+
+  
 /*FEATURES*/
 .banner-2{
     margin-top: -150px;
 }
-
+.badge-sale{
+    background-color: rgb(255, 73, 73);
+    width: 52px;
+    height: 26px;
+    font-size: 11px;
+    padding: 0.65em !important;
+    top: 9px;
+    right: 13px;
+    
+    
+}
 .work-it-out{
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
