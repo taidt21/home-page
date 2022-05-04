@@ -22,6 +22,7 @@ a{
     font-size: 10px;
     line-height: 59px;
     letter-spacing: 2px;
+    word-spacing: 1px;
 }
 .top-bar .close{
     top:21px;
@@ -151,6 +152,12 @@ section.basic-collection{
     
     
 }
+.mw-527{
+    max-width: 527px;
+}
+.mw-320{
+    max-width: 320px;
+}
 .work-it-out{
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
@@ -159,6 +166,9 @@ section.basic-collection{
     margin-left: -80%;
     margin-top: -12%;
     font-weight: 500;
+}
+.features .work-it-out{
+    margin-left:0;
 }
 .line-3{
     display: inline-block;
@@ -248,10 +258,7 @@ section.basic-collection{
     border-left:10px solid black;
 }
 /*SECTION.STAFF */
-section.staff .title{
-    background-color: #f6f6f6;
-    
-}
+
 .staff .mt-15{
     color: #a6a6a6;
 }

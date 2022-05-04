@@ -17,6 +17,17 @@
     .slick-slide{
         margin: 0 auto!important;
     }
+    .banner-2{
+        margin-top: 50px;
+    }
+    .banner-2 img{
+        display: block;
+        margin: 0 auto;
+    }
+    .banner-2 h3{
+        text-align: center!important;
+        margin-top:70px;
+    }
 }
 @media(max-width:992px){
     .sample{
@@ -41,13 +52,7 @@
     .main-header{
         background-color: #f8f7f3;
     }
-    .banner-2{
-        margin-top:0;
-    }
-    .banner-2 h3{
-        text-align: center!important;
-        margin-top:70px;
-    }
+   
     .border-10{
         margin:0 auto;
     }
