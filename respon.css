@@ -78,7 +78,13 @@
         left: 22%;
         top: 80%;
     } 
-    
+    .banner-4 img,.banner-5 img, .banner-6 img{
+        display: block;
+        margin:0 auto!important;
+    }
+   .sneaker-red {
+       margin-top: 0;
+   }
 }
 @media(max-width:768px){
     .basic-collection{
