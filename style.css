@@ -167,7 +167,6 @@ section.basic-collection{
     margin-top: -12%;
     font-weight: 500;
 }
-
 .line-3{
     display: inline-block;
     width: 130px;
@@ -180,7 +179,6 @@ section.basic-collection{
 .mt-7{
     margin-top: 6%;
 }
-
 .features .slick-prev{
     position: absolute;
     top: 50%;
@@ -194,13 +192,12 @@ section.basic-collection{
     border: 1px solid #000;
     border-radius: 50%;
     font-size: 25px;
-    
     background-color: #fff;
 }
-.slick-list{
+/* .slick-list{
     max-height: 387px!important;
     
-}
+} */
 .features .slick-next{
     position: absolute;
     top: 50%;
