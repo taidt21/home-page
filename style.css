@@ -135,8 +135,6 @@ section.basic-collection{
     background:#1e1e1e;
     margin-right: 26px;
 }
-
-  
 /*FEATURES*/
 .banner-2{
     margin-top: -150px;
@@ -149,8 +147,6 @@ section.basic-collection{
     padding: 0.65em !important;
     top: 9px;
     right: 13px;
-    
-    
 }
 .mw-527{
     max-width: 527px;
@@ -194,10 +190,7 @@ section.basic-collection{
     font-size: 25px;
     background-color: #fff;
 }
-/* .slick-list{
-    max-height: 387px!important;
-    
-} */
+
 .features .slick-next{
     position: absolute;
     top: 50%;
@@ -253,7 +246,6 @@ section.basic-collection{
     border-left:10px solid black;
 }
 /*SECTION.STAFF */
-
 .staff .mt-15{
     color: #a6a6a6;
 }
@@ -302,7 +294,7 @@ section.basic-collection{
 }
 .staff-pick{
     height: 108px;
-    padding-top: 70px;
+    
 }
 .shop-2{
     margin-top: 99px;
@@ -325,11 +317,9 @@ section.basic-collection{
 }
 /*SECTION WORKs*/
 .sneaker-red{
-    margin-top: -40%;
+    margin-top: -25%;
 }
-.banner-6{
-    margin-left: -50%;
-}
+
 .eduardo{
     height: 100%;
     width: 100%;
@@ -338,9 +328,8 @@ section.basic-collection{
     border:10px solid rgb(34, 34, 34);
     height: 300px;
     width: 548px;
-    margin-left: -70%;
     z-index: 1;
-    margin-top: 50%;
+    border-left-width:0;
 }
 .layer-white{
     width: 318px;
@@ -369,15 +358,11 @@ section.basic-collection{
     z-index: -1;
 }
 /*INSTAGRAM SHOP*/
-
-
-  
 .instagram{
         background-image: -moz-linear-gradient( 0deg, rgb(220,238,245) 0%, rgb(248,221,227) 100%);
         background-image: -webkit-linear-gradient( 0deg, rgb(220,238,245) 0%, rgb(248,221,227) 100%);
         background-image: -ms-linear-gradient( 0deg, rgb(220,238,245) 0%, rgb(248,221,227) 100%);
-        background-image:linear-gradient( 0deg, rgb(220,238,245) 0%, rgb(248,221,227) 100%);
-      
+        background-image:linear-gradient( 0deg, rgb(220,238,245) 0%, rgb(248,221,227) 100%);     
 }
 .instagram-allbum  img{
     width: 100%;
@@ -391,7 +376,6 @@ section.basic-collection{
 /*FOOTER*/
 footer{
     background-color: #161616;
-    
 }
 footer h3{
     margin-top:70px;
