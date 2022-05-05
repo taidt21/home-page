@@ -373,6 +373,22 @@ section.basic-collection{
 .dooley{
     height: 100%;
 }
+.overlay-instagram::before{
+    content: "";
+    display: block;
+    background-color:rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+}
+.shop-it{
+    font-size: 14px;
+    color:rgb(255, 254, 254);
+    letter-spacing: 2px;
+}
+  
 /*FOOTER*/
 footer{
     background-color: #161616;
